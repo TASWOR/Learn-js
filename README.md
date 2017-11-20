@@ -1,2 +1,1 @@
-# Learn-js
-# Learn-js
+# Lessons for js 
