@@ -53,3 +53,14 @@ get.reset= function () {
     }
     a.style.border="none";
 };
+get.add = function () {
+    var a = document.getElementById("all");
+    var add = document.createElement("p");
+    add.innerHTML="New p";
+    a.appendChild(add);
+};
+get.remove= function () {
+    var a = document.getElementById("all");
+    var item = a.lastChild;
+    a.removeChild(item);
+}
