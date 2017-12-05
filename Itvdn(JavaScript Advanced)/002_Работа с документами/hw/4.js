@@ -1,4 +1,5 @@
 ﻿var get={};
+
 get.class=function () {
     get.reset();
     var a = document.getElementsByClassName("class");
